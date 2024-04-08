@@ -1,0 +1,156 @@
+/* on place généralement les variables dans le pseudo élémen :root */
+:root{
+    /* le nom de la varriable commence toujours pas deux tirets */
+    --exemplevariable : rgb(255,0,0);
+}
+
+/* remise à zero des éléments */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* utilisation d'une variable */
+    color:var(--exemplevariable);
+    overflow: hidden;
+   
+    background-image:url(https://img.freepik.com/photos-premium/arriere-plan-lumieres-scintillantes-dans-differentes-nuances-creant-ambiance-chaleureuse-invitante_674594-5787.jpg?w=1060) ;
+    background-size: 1500px;
+}
+
+.formeone{
+    z-index: 10;
+    position: relative;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(77, 167, 215);
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20PX;
+    box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+    color: aliceblue;
+}
+
+.formetwo{
+    z-index: 10;
+    position: relative;
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: rgb(197, 196, 196);
+    margin-top: -150px;
+    margin-left: 800px;
+}
+
+img{
+    height: 950px;
+    margin-top: -740px;
+    margin-left: -80px;
+  
+}
+
+h1{
+  padding-top: 50px;  
+  padding-left: 50px;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+p2{
+    padding: 50px;
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+
+}
+p{
+    padding-left: 50px;
+    padding-top: 35px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formethree{
+    z-index: 15;
+    position: relative;
+    background-color: aliceblue;
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 4px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.formefour{
+    z-index: 15;
+    position: relative;
+    background-color: aliceblue;
+    height: 40px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 4px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.formefive{
+    z-index: 15;
+    position: relative;
+    background-color: rgb(4, 189, 4);
+    height: 100px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 4px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+h3{
+color: black;
+align-content: center;
+text-align: center;
+font-size: 10px;
+padding: 20px;
+margin-top: 0px;
+font-weight: lighter;
+}
+
+.gif{
+    z-index: 20;
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    height: 500px;
+}
+
+input{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.credit{
+    width: 400px;
+}
+a{
+    text-decoration: none;
+}
